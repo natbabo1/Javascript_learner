@@ -1,0 +1,7 @@
+const firstName = 'Rutsarun'
+let lastName = 'Limwichai'
+var nickName = 'Nat'
+const firstName = 'Pita'
+let lastName = 'Akra'
+var nickName = 'Piz'
+birthDate = '19/07/1996'
