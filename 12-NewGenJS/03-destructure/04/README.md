@@ -1,10 +1,8 @@
 บรรทัด \* ให้ผลลัพธ์เป็นอะไร เพราะอะไร
 
 ```js
-function sayHi(name) {
-  let name = "Guest";
-  console.log(name); // *
-}
-
-sayHi("Jim");
+let facts = { numPlanets: 8, yearNeptuneDiscovered: 1846 };
+let { numPlanets, yearNeptuneDiscovered } = facts;
+console.log(numPlanets); // *
+console.log(yearNeptuneDiscovered); // **
 ```

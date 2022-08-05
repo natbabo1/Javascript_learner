@@ -1,8 +1,7 @@
-ผลลัพธ์ในบรรทัดที่มี * มีค่าเป็นอะไรและเพราะอะไร
+ผลลัพธ์ในบรรทัดที่มี \* มีค่าเป็นอะไรและเพราะอะไร
 
 ```js
-let facts = { numPlanets: 8, yearNeptuneDiscovered: 1846 };
-let { numPlanets, yearNeptuneDiscovered } = facts;
-console.log(numPlanets); // *
-console.log(yearNeptuneDiscovered); // **
+let numbers = [10, 20, 30];
+[numbers[1], numbers[2]] = [numbers[2], numbers[1]];
+console.log(numbers); // *
 ```
