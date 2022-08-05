@@ -26,7 +26,13 @@
 [1.Understanding Boolean Values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values)
 ```js
 // Finish and Paste your solution here
+function welcomeToBooleans() {
+  // Only change code below this line
 
+  return true; // Change this line
+
+  // Only change code above this line
+}
 
 
 
@@ -35,7 +41,18 @@
 ```js
 // Finish and Paste your solution here
 
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+if (wasThatTrue == true) {
+  return "Yes, that was true";
+} else {
+  return "No, that was false";
+}
 
+
+  // Only change code above this line
+
+}
 
 
 ```
@@ -44,7 +61,15 @@
 [1.Comparison with the Equality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 ```js
 // Finish and Paste your solution here
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
 
+testEqual(10);
 
 
 
@@ -53,7 +78,15 @@
 [2.Comparison with the Strict Equality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
 ```js
 // Finish and Paste your solution here
+// Setup
+function testStrict(val) {
+  if (val === 7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
 
+testStrict(10);
 
 
 
@@ -62,7 +95,15 @@
 [3.Practice comparing different values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/practice-comparing-different-values)
 ```js
 // Finish and Paste your solution here
+// Setup
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
 
+compareEquality(10, "10");
 
 
 
@@ -73,7 +114,15 @@
 ```js
 // Finish and Paste your solution here
 
+// Setup
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
 
+testNotEqual(10);
 
 
 ```
@@ -82,7 +131,15 @@
 ```js
 // Finish and Paste your solution here
 
+// Setup
+function testStrictNotEqual(val) {
+  if (val !== 17) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
 
+testStrictNotEqual(10);
 
 
 ```
