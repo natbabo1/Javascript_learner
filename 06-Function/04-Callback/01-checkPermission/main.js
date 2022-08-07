@@ -1,5 +1,9 @@
-const checkPermission = (role, adminFunct, nonAdminFunct) => role == "ADMIN" ? adminExe("ACCESS GRANTED") : guestExe("ACCESS DENIED");
 const adminExe = () => alert("ACCESS GRANTED");
 const guestExe = () => alert("ACCESS DENIED");
 
-checkPermission(prompt("Enter role"), alert, alert);
+const checkPermission = (role, adminFunct, nonAdminFunct) =>
+  role == "ADMIN" ? adminFunct() : nonAdminFunct();
+
+let user = prompt("Enter role");
+
+checkPermission(user, adminExe, guestExe);
